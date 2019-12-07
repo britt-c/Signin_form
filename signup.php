@@ -1,20 +1,32 @@
+<!DOCTYPE html>
 <html>
+	<head>
+		<title>Sign up for this super cool fake site!!</title>
+	</head>
 	<body>
 		<form action="./process.php" method="POST">
 		<label>Username: </label><br/>
-		<input type="text" value="" name="username">
+		<input type="text" value="" name="username"/>
+		<br/>
 		<label>Email Address: </label><br/>
-		<input type="email" value="" name="email">
+		<input type="email" value="" name="email"/>
+		<br/>
 		<label>First Name: </label>
-		<input type="text" value="" name="firstname" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+		<input type="text" value="" name="firstname" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+		<br/>
 		<label>Last Name: </label>
-		<input type="text" value="" name="lastname">
+		<input type="text" value="" name="lastname"/>
+		<br/>
 		<label>Password: </label>
-		<input type="password" value="" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+		<input type="password" value="" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"/>
+		<br/>
 		<label>Confirm Password: </label>
-		<input type="password" value="" name="confpwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+		<input type="password" value="" name="confpwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"/>
+		<br/>
 		<label>Age: </label>
-		<input type="number" value="" name="age" min="18" max="150">
+		<input type="number" value="" name="age" min="18" max="150"/>
+		<br/>
+		<input type="submit" value="submit"/>
 		</form>
 	</body>
 </html>
