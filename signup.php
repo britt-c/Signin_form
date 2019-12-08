@@ -12,7 +12,7 @@
 		<input type="email" value="" name="email"/>
 		<br/>
 		<label>First Name: </label>
-		<input type="text" value="" name="firstname" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+		<input type="text" value="" name="firstname"/>
 		<br/>
 		<label>Last Name: </label>
 		<input type="text" value="" name="lastname"/>
@@ -22,7 +22,7 @@
 		<br/>
 		<label>Confirm Password: </label>
 		<input type="password" value="" name="confpwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"/>
-		<br/>
+		<p>NOTE: Password must contain at least: one capital and lowcase, number and special character.</p><br/>
 		<label>Age: </label>
 		<input type="number" value="" name="age" min="18" max="150"/>
 		<br/>
